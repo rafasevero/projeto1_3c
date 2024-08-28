@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #5B99C2;
+    
+}
+h1,h2,h3{
+    color: #333;
+}
+p{
+    color: #050505;
+    font-weight: bold;
+    font-family: "Nunito Sans", sans-serif;
+
+}
+
+.navbar-container{
+    width: 100%;
+    height: 85px;
+    background-color: #1A4870;
+    padding: 0 2em;
+    position: relative;
+    box-sizing: border-box ; 
+    
+}
+.logo{
+    width: 115px;
+    margin-top: -1px;
+    margin-left:160px;
+    margin-right: auto;
+}
+
+nav{
+    position: relative;
+
+}
+
+.navbar-items{
+    list-style:none ;
+    position: absolute;
+    display: inline-block;
+    height: 80px;
+    line-height: 80px;
+    margin-right: 150px;
+    right: 0;
+    
+}
+
+.navbar-items li{
+    display: inline-block;
+    text-transform: uppercase;
+    margin-left: 25px;
+}
+
+.navbar-items li a{
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: bold;
+    color: #000000;
+    text-decoration: none;
+    transition: .5s;
+}
+
+.navbar-items li a:hover{
+    color: #2c96c7;
+}
+
+.default-btn{
+    padding: 15px 20px;
+    background-color: #062f6d ;
+    border-radius:5px;
+    color: #FFF;
+}
+
+.default-btn:hover{
+    background-color: #041a49;
+    cursor: pointer;
+}
+
+.main-banner{
+    background-image: url(./img/banner.jpg);
+    background-size:auto;
+    background-position:center;
+    padding:10em 0;
+    position: relative;
+}
+
+.navbar-items li i{
+    width: 45px;
+    color: #030841;
+    position: relative;
+    transform: scale(1.9); /* Aumenta o ícone em 1.5x */
+    vertical-align: middle; /* Alinha o ícone verticalmente */
+    transition: 0.5s;
+}
+
+.navbar-items li i:hover{
+    color: #5B99C2;
+}
+
+.card{
+    display: inline-block;
+    width: 300px;
+    margin: 25px;
+    border: 3px solid #ca5506 ;
+    border-radius: 10px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+
+}
+.card-image{
+    height: 300px;
+    background-size: cover;
+    border-radius: 10px;
+    transition: filter 0.3s; /* Transição suave para o efeito de filtro */
+}
+.card:hover .card-image {
+    filter: brightness(0.5); /* Escurece a imagem */
+}
+.card-description {
+    background: #21528a;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Estilo do link 'Ver Mais' */
+.card-description a {
+    text-decoration: none;
+    font-family: "Nunito Sans", sans-serif;
+
+    color: #040c14; /* Cor do texto do link */
+    font-weight: bold;
+    transition: color 0.4s;
+}
+
+.card-description a:hover {
+    color: #c7b5b5; /* Cor do link quando o mouse passa sobre ele */
+}
+
+.card-1 .card-image{
+    background-image: url(../CSS3_Fundamental-/img/firewhip.jpg);
+}
+.card-2 .card-image{
+    background-image: url(../CSS3_Fundamental-/img/bigtower.jpg);
+}
+.card-3 .card-image{
+    background-image: url(../CSS3_Fundamental-/img/star.jpeg);
+}
+.card-4 .card-image{
+    background-image: url(../CSS3_Fundamental-/img/tchibum.jpg);
+}
+.card-5 .card-image{
+    background-image: url(../CSS3_Fundamental-/img/barco.jpg);
+}
+.card-6 .card-image{
+    background-image: url(../CSS3_Fundamental-/img/crazyriver.jpg);
+}
+.card-7 .card-image{
+    background-image: url(../CSS3_Fundamental-/img/rebulico.jpg);
+    background-position: center;
+
+}
+.card-8 .card-image{
+    background-image: url(../CSS3_Fundamental-/img/supersoak.jpeg);
+}
+.card-9 .card-image{
+    background-image: url(../CSS3_Fundamental-/img/spin2.jpg);
+    background-position: center;
+}
+.card-10 .card-image{
+    background-image: url(../CSS3_Fundamental-/img/tigor.jpg);
+    background-position: center;
+}
+.card-11 .card-image{
+    background-image: url(../CSS3_Fundamental-/img/raskapuska.jpg);
+    background-position: center;
+}
+.card-12 .card-image{
+    background-image: url(../CSS3_Fundamental-/img/hotwheels.jpg);
+    background-position: center;
+}
+.card-13 .card-image{
+    background-image: url(../CSS3_Fundamental-/img/dinomagic.jpg);
+    background-position: center;
+}
+.card-14 .card-image{
+    background-image: url(../CSS3_Fundamental-/img/roda.jpg);
+    background-position: center;
+}
+.card-15 .card-image{
+    background-image: url(../CSS3_Fundamental-/img/carrossel.jpg);
+    background-position: center;
+}
+
